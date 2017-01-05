@@ -22,4 +22,11 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
 goprd
+main
+*.tar.gz
+*.pem
+*.crt
+*.key
+bricks.pac
