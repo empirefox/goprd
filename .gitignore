@@ -23,3 +23,10 @@ _testmain.go
 *.test
 *.prof
 goprd
+
+*.crt
+*.pem
+*.key
+!apiclient_cert-dev.pem
+!apiclient_key-dev.pem
+*.json5
