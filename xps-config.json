@@ -1,0 +1,12 @@
+{
+	"password": "",
+	"files": {
+		"config.json": "xps-files/prod/config.json",
+		"server.crt": "xps-files/prod/server.crt",
+		"server.key": "xps-files/prod/server.key",
+		"chain.pem": "xps-files/prod/chain.pem",
+		"bricks.pac": "xps-files/prod/bricks.pac"
+	},
+	"xps-file": "xps-files/xps-prod.tar.gz",
+	"gzip-level": -1
+}

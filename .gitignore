@@ -25,8 +25,6 @@ _testmain.go
 
 goprd
 main
-*.tar.gz
-*.pem
-*.crt
-*.key
-bricks.pac
+xps-files/prod
+main.tar.gz
+main-*.tar.gz
