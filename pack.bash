@@ -1,12 +1,14 @@
 #!/bin/sh
 set -e
 
+echo "maybe you should run xps -k first to update xps tarball!!!"
+
 docker run --rm -it \
 	-v "$GOPATH":/gopath \
 	-v "$(pwd)":/app \
 	-e "GOPATH=/gopath" \
 	-w /app \
-	golang:1.7.4-alpine \
+	golang:1.8.1-alpine \
 	sh -c 'CGO_ENABLED=0 go build -a --installsuffix cgo --ldflags="-s -w" -o main'
 
 rm -f main-*.tar.gz
